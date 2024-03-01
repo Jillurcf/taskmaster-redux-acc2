@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_apiKey,
-  authDomain: import.meta.env.VITE_authDomain,
-  projectId: import.meta.env.VITE_projectId,
-  storageBucket: import.meta.env.VITE_storageBucket,
-  messagingSenderId: import.meta.env.VITE_messagingSenderId,
-  appId: import.meta.env.VITE_appId,
+  apiKey: "AIzaSyBYdXdFImQM53eoPq-ALN_LWFT3O1cYg2Q",
+  authDomain: "taskmaster-redux-acc2.firebaseapp.com",
+  projectId: "taskmaster-redux-acc2",
+  storageBucket: "taskmaster-redux-acc2.appspot.com",
+  messagingSenderId: "842053573199",
+  appId: "1:842053573199:web:5ad4ad895cb2b6baa6e83a"
 };
 
 const app = initializeApp(firebaseConfig);
